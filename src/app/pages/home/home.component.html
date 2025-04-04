@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<div class="home-container">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">¡Encuentra el auto perfecto para tu viaje!</h1>
+      <p class="hero-subtitle">Explora nuestra amplia selección de vehículos y reserva el que mejor se adapte a tus necesidades.</p>
+      <button class="hero-button">Ver Autos Disponibles</button>
+    </div>
+  </section>
+
+  <!-- Quiénes Somos Section -->
+  <section class="about-us">
+    <h2 class="section-title">Quiénes Somos</h2>
+    <p class="about-text">
+      En <strong>Alquiler de Autos</strong>, nos dedicamos a ofrecerte la mejor experiencia de alquiler de vehículos. Con años de experiencia en el mercado, nos enorgullece brindar un servicio confiable, rápido y accesible para todos nuestros clientes.
+    </p>
+  </section>
+
+  <!-- Por Qué Escogernos Section -->
+  <section class="why-choose-us">
+    <h2 class="section-title">¿Por Qué Escogernos?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Variedad de Vehículos</h3>
+        <p>Desde autos compactos hasta SUVs de lujo, tenemos el vehículo perfecto para cada ocasión.</p>
+      </div>
+      <div class="feature">
+        <h3>Precios Competitivos</h3>
+        <p>Ofrecemos tarifas accesibles sin comprometer la calidad del servicio.</p>
+      </div>
+      <div class="feature">
+        <h3>Atención al Cliente</h3>
+        <p>Nuestro equipo está disponible 24/7 para ayudarte en todo lo que necesites.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Cars Section -->
+  <section class="featured-cars">
+    <h2 class="section-title">Autos Destacados</h2>
+    <div class="car-list">
+      <app-car-card
+        *ngfor="let car of cars"
+        [car]="car"
+        (carselected)="onCarSelected($event)">
+      </app-car-card>
+    </div>
+  </section>
+</div>

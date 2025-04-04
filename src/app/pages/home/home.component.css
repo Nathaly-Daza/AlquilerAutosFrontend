@@ -1,0 +1,79 @@
+.about-us {
+  padding: 20px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.why-choose-us {
+  padding: 40px 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.hero-button {
+  background-color: #2563eb; /* Azul oscuro */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 2px;
+  margin-bottom: 40px;
+  background-image: url('https://abcrentacar.com.co/wp-content/uploads/2024/01/2e1ax_default_entry_alquiler-de-autos-Bogot-2-min-1.webp');
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: #ffffff; /* Cambia el color del texto a blanco para que sea legible */
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}

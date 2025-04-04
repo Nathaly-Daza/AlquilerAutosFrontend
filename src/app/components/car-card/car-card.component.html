@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<div class="card">
+  <img [src]="car.image" alt="{{ car.name }}" class="card-image">
+  <div class="card-content">
+    <h3>{{ car.name }}</h3>
+    <p>{{ car.description }}</p>
+    <p><strong>Precio:</strong> {{ car.price | currency }}</p>
+    <button (click)="selectCar()">Seleccionar</button>
+  </div>
+</div>
