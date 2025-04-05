@@ -5,7 +5,7 @@
     <div class="hero-content">
       <h1 class="hero-title">¡Encuentra el auto perfecto para tu viaje!</h1>
       <p class="hero-subtitle">Explora nuestra amplia selección de vehículos y reserva el que mejor se adapte a tus necesidades.</p>
-      <button class="hero-button">Ver Autos Disponibles</button>
+      <button class="hero-button" routerlink="/add-car">Ver Autos Disponibles</button>
     </div>
   </section>
 
@@ -36,15 +36,5 @@
     </div>
   </section>
 
-  <!-- Featured Cars Section -->
-  <section class="featured-cars">
-    <h2 class="section-title">Autos Destacados</h2>
-    <div class="car-list">
-      <app-car-card
-        *ngfor="let car of cars"
-        [car]="car"
-        (carselected)="onCarSelected($event)">
-      </app-car-card>
-    </div>
-  </section>
+ 
 </div>

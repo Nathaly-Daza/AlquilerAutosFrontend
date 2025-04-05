@@ -1,21 +1,14 @@
 <!DOCTYPE html>
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 
 <app-navbar></app-navbar>
-<div class="car-list">
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+
+<!-- <div class="car-list">
   <app-car-card
     *ngfor="let car of cars"
     [car]="car"
     (carselected)="onCarSelected($event)">
   </app-car-card>
-</div>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+</div> -->
+

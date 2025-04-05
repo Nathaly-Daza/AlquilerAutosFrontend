@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
+import { CreateReservationComponent } from '../../components/create-reservation/create-reservation.component';
 
 @Component({
   selector: 'app-reserva',
-  imports: [],
+  standalone: true,
+  imports: [CreateReservationComponent],
   templateUrl: './reserva.component.html',
-  styleUrl: './reserva.component.css'
+  styleUrls: ['./reserva.component.css']
 })
-export class ReservaComponent {
-
-}
+export class ReservaComponent {}

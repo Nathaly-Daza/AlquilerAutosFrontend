@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<h2>Agregar Auto</h2>
+<form (ngsubmit)="addCar()">
+  <label>Marca:</label>
+  <input type="text" [(ngModel)]="car.brand" name="brand" required />
+  <label>Modelo:</label>
+  <input type="text" [(ngModel)]="car.model" name="model" required />
+  <label>Año:</label>
+  <input type="number" [(ngModel)]="car.year" name="year" required />
+  <label>Categoría:</label>
+  <input type="text" [(ngModel)]="car.category" name="category" required />
+  <label>Precio por Día:</label>
+  <input type="number" [(ngModel)]="car.pricePerDay" name="pricePerDay" required />
+  <label>Ubicación:</label>
+  <input type="text" [(ngModel)]="car.location" name="location" required />
+  <label>Imagen (URL):</label>
+  <input type="text" [(ngModel)]="car.image" name="image" required />
+  <button type="submit">Agregar Auto</button>
+</form>

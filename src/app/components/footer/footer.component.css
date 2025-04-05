@@ -14,3 +14,17 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+ul {
+  list-style: none; /* Elimina los puntos de la lista */
+}
+
+
+
+a {
+  color: white; /* Mantén el color blanco para los enlaces */
+  text-decoration: none; /* Elimina el subrayado */
+}
+
+a:hover {
+  text-decoration: underline; /* Subraya el enlace al pasar el cursor */
+}

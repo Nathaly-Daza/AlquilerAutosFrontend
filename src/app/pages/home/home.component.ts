@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import { CarCardComponent } from "../../components/car-card/car-card.component";
+import { AddCarComponent } from "../../components/add-car/add-car.component";
+import { CreateReservationComponent } from "../../components/create-reservation/create-reservation.component";
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
-  imports: [CarCardComponent]
+  imports: [CarCardComponent, AddCarComponent, CreateReservationComponent]
 })
 export class HomeComponent {
   cars = [

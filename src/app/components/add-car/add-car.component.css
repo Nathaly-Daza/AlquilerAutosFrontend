@@ -1,0 +1,62 @@
+/* General Styles */
+form {
+  background-color: #ffffff; /* Fondo blanco */
+  border: 1px solid #e5e7eb; /* Borde gris claro */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+  max-width: 500px; /* Ancho máximo del formulario */
+  margin: 20px auto; /* Centrar el formulario */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h2 {
+  text-align: center; /* Centrar el título */
+  color: #2563eb; /* Azul */
+  margin-bottom: 20px; /* Espaciado inferior */
+  font-size: 1.8rem; /* Tamaño del texto */
+}
+
+label {
+  display: block; /* Mostrar cada etiqueta en una línea separada */
+  font-size: 1rem; /* Tamaño del texto */
+  color: #1f2937; /* Gris oscuro */
+  margin-bottom: 5px; /* Espaciado inferior */
+}
+
+input {
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Espaciado interno */
+  margin-bottom: 15px; /* Espaciado inferior */
+  border: 1px solid #e5e7eb; /* Borde gris claro */
+  border-radius: 4px; /* Bordes redondeados */
+  font-size: 1rem; /* Tamaño del texto */
+  color: #1f2937; /* Gris oscuro */
+  background-color: #f9fafb; /* Fondo gris claro */
+}
+
+input:focus {
+  outline: none; /* Quitar el borde predeterminado */
+  border-color: #2563eb; /* Borde azul al enfocar */
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2); /* Sombra azul */
+}
+
+button {
+  background-color: #2563eb; /* Azul */
+  color: #ffffff; /* Texto blanco */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 1rem; /* Tamaño del texto */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar el cursor al pasar */
+  width: 100%; /* Botón de ancho completo */
+}
+
+button:hover {
+  background-color: #1e40af; /* Azul más oscuro */
+}
+
+button:active {
+  background-color: #1d4ed8; /* Azul más claro */
+  transform: scale(0.98); /* Efecto de clic */
+}
+

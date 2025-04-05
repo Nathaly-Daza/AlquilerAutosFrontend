@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<h2>Crear Reserva</h2>
+<form (ngsubmit)="createReservation()">
+  <label>ID Usuario:</label>
+  <input type="text" [(ngModel)]="reservation.user" name="user" required />
+  <label>ID Auto:</label>
+  <input type="text" [(ngModel)]="reservation.car" name="car" required />
+  <label>Fecha de Inicio:</label>
+  <input type="datetime-local" [(ngModel)]="reservation.startDate" name="startDate" required />
+  <label>Fecha de Fin:</label>
+  <input type="datetime-local" [(ngModel)]="reservation.endDate" name="endDate" required />
+  <label>Precio Total:</label>
+  <input type="number" [(ngModel)]="reservation.totalPrice" name="totalPrice" required />
+  <label>Cuenta (Wallet Address):</label>
+  <input type="text" [(ngModel)]="reservation.account" name="account" required />
+  <button type="submit">Crear Reserva</button>
+</form>
